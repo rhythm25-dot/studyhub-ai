@@ -136,13 +136,7 @@ npm run init-db
 ```
 
 This creates the `studyhub_ai` database, every table (safe to re-run — it
-never drops or overwrites data), and three ready-to-use demo accounts:
-
-| Role | Email | Password |
-|---|---|---|
-| Admin | `admin@studyhub.com` | `Admin@123` |
-| Teacher | `teacher@studyhub.com` | `Teacher@123` |
-| Student | `student@studyhub.com` | `Student@123` |
+never drops or overwrites data).
 
 **Option B — manual:**
 
