@@ -1,0 +1,45 @@
+import {
+  LayoutDashboard,
+  BookOpen,
+  FileText,
+  ClipboardList,
+  HelpCircle,
+  Megaphone,
+  Sparkles,
+  User,
+  Users,
+  Settings,
+  Bookmark,
+} from 'lucide-react';
+
+export const navByRole = {
+  student: [
+    { label: 'Dashboard', path: '/dashboard', icon: LayoutDashboard },
+    { label: 'Subjects', path: '/subjects', icon: BookOpen },
+    { label: 'Notes', path: '/notes', icon: FileText },
+    { label: 'Bookmarks', path: '/bookmarks', icon: Bookmark },
+    { label: 'Assignments', path: '/assignments', icon: ClipboardList },
+    { label: 'Quizzes', path: '/quizzes', icon: HelpCircle },
+    { label: 'Announcements', path: '/announcements', icon: Megaphone },
+    { label: 'AI Tools', path: '/ai', icon: Sparkles },
+    { label: 'Profile', path: '/profile', icon: User },
+  ],
+  teacher: [
+    { label: 'Dashboard', path: '/dashboard', icon: LayoutDashboard },
+    { label: 'Subjects', path: '/subjects', icon: BookOpen },
+    { label: 'Notes', path: '/notes', icon: FileText },
+    { label: 'Assignments', path: '/assignments', icon: ClipboardList },
+    { label: 'Quizzes', path: '/quizzes', icon: HelpCircle },
+    { label: 'Announcements', path: '/announcements', icon: Megaphone },
+    { label: 'AI Tools', path: '/ai', icon: Sparkles },
+    { label: 'Profile', path: '/profile', icon: User },
+  ],
+  admin: [
+    { label: 'Dashboard', path: '/dashboard', icon: LayoutDashboard },
+    { label: 'Teachers', path: '/admin/teachers', icon: Users },
+    { label: 'Students', path: '/admin/students', icon: Users },
+    { label: 'Announcements', path: '/announcements', icon: Megaphone },
+    { label: 'Settings', path: '/admin/settings', icon: Settings },
+    { label: 'Profile', path: '/profile', icon: User },
+  ],
+};
